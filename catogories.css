@@ -1,0 +1,496 @@
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800);
+body{
+    margin: 0px;
+    padding: 0px;
+}
+/* header section start */
+#header-section{
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), #5a5a5a), linear-gradient(to bottom, rgba(74, 74, 74, 0.3), rgba(74, 74, 74, 0.3));
+    padding:10px;
+    position: absolute;
+    z-index: 24;
+    width: 100%;
+}
+#header-section .primary-wrapper{
+    display:flex;
+    justify-content: space-between;
+}
+#header-section .header-nav ul{
+    list-style-type: none;
+    padding-left: 81px;
+}
+#header-section .header-nav ul li{
+    list-style-type: none;
+    padding-left: 0px;
+    float: left;
+    margin-right: 30px;
+
+}
+#header-section .header-nav ul li a{
+    text-decoration: none;
+    color:#fff;
+    font-family: 'Avenir LT Std';
+    font-size: 14px;
+}
+#header-section .main-wrapper{
+    display: flex;
+    padding-left: 64px;
+}
+#header-section .btn-wrapper{
+    padding-top:14px;
+}
+#header-section .cmn-btn{
+    padding:6px 24px;
+    font-family: 'Avenir LT Std';
+    color: #ffffff;
+    border-radius: 3px;
+    font-size: 12px;
+    margin-right:8px;
+}
+#header-section .btn-transparent{
+    border:1px solid #fff;
+    background-color: transparent;
+}
+#header-section .btn-dark{
+    background-color: #f17a28;
+}
+#header-section .icon-wrapper{
+    padding-top:14px;
+    display: flex;
+}
+#header-section .icon-wrapper img{
+    margin-left: 20px;
+    cursor: pointer;
+}
+/* header section end */
+#leadership-hero{
+    mix-blend-mode: screen;
+    background-image: url("../images/shade.png");
+    min-height: 649px;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+}
+#leadership-hero .standard-section{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    flex-direction: column;
+    padding-left: 50px;
+}
+#leadership-hero .standard-section h2{
+    text-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
+    font-family: Montserrat;
+    font-size: 45px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.82;
+    letter-spacing: normal;
+    color: #ffffff;
+}
+#leadership-hero .standard-section p{
+    text-shadow: 0 0 16px #000000;
+    font-family: 'Avenir LT Std';
+    font-size: 19px;
+    font-weight: 900;
+    line-height: 1.42;
+    letter-spacing: 0.2px;
+    color: #ffffff;
+}
+#leadership-hero .standard-section img{
+    margin-left: 15%;
+    cursor: pointer;
+}
+
+#leadership-hero .image-section{
+    background-image:  url(../images/cat.png);
+    background-repeat: no-repeat;
+    height: 150px;
+    width: 100%;
+    margin-top: 47%;
+}
+#leadership-hero .leadership-content p{
+    text-shadow: 0 0 16px #000000;
+    font-family: Montserrat;
+    font-size: 19px;
+    font-weight: normal;
+    line-height: 1.74;
+    letter-spacing: 0.2px;
+    color: #ffffff;
+    opacity: 0.8;
+}
+#leadership-hero .leadership-content .leadership-btn {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+}
+#leadership-hero .leadership-content .leadership-btn a{
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: normal;
+    letter-spacing: 0.5px;
+    text-align: center;
+    color: #ffffff;
+    padding: 10px 30px;
+    border-radius: 3px;
+    text-decoration: none;
+
+}
+#leadership-hero .leadership-content .leadership-btn a.green{
+    background-color: #bfcd31;
+}
+#leadership-hero .leadership-content .leadership-btn a.golden{
+    background-color: #f5a623;
+}
+#leadership-hero .leadership-content .leadership-btn a.blue{
+    background-color: #01c2c4;
+}
+#leadership-hero .leadership-content .leadership-btn a.gray{
+    background-color: #323b52;
+}
+#leadership-hero .leadership-content .leadership-btn a.white{
+    background-color: #d8d8d8;
+}
+
+/* leadership section End */
+#down-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0px;
+}
+#down-icon img{
+    cursor: pointer;
+}
+/* foundation section start  */
+#foundation{
+    padding-bottom: 100px;
+}
+#foundation .fondation-content{
+    padding-top: 50px;
+}
+#foundation .fondation-content .learn-more{
+    display: flex;
+    justify-content: center
+}
+#foundation .fondation-content .learn-more a{
+    font-family: 'Avenir LT Std';
+    font-size: 16px;
+    font-weight: normal;
+    line-height: normal;
+    letter-spacing: 0.5px;
+    text-align: center;
+    color: #ffffff;
+    border-radius: 3px;
+    background-color: #b5b5b5;
+    padding: 10px 20px;
+    margin-top: 30px;
+    text-decoration: none;
+}
+#foundation .fondation-content h3{
+    font-family: Montserrat;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #5e6a6e;
+    padding-bottom:20px;
+}
+#foundation .fondation-content p{
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.69;
+    letter-spacing: normal;
+    color: #5e6a6e;
+    padding-bottom: 30px;
+
+}
+
+/* foundation section end  */
+
+/* public-section start */
+#public-section{
+    height: 100%;
+    padding-bottom: 100px;
+    padding-top: 50px;
+}
+#public-section .employment-content .learn-more{
+    display: flex;
+    justify-content: center;
+}
+#public-section .employment-content .learn-more a{
+    font-family: 'Avenir LT Std';
+    font-size: 16px;
+    font-weight: normal;
+    line-height: normal;
+    letter-spacing: 0.5px;
+    text-align: center;
+    color: #ffffff;
+    border-radius: 3px;
+    background-color: #b5b5b5;
+    padding: 10px 20px;
+    margin-top: 30px;
+    text-decoration: none;
+}
+#public-section .employment-content h3{
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #404960;
+    padding-bottom: 20px;
+}
+#public-section .employment-content p{
+    font-family: 'Avenir LT Std';
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.69;
+    letter-spacing: normal;
+    color: #5e6a6e;
+}
+#public-section .employment-content .list-content{
+    display: flex;
+    justify-content: space-between;
+}
+#public-section .employment-content ul{
+    list-style: none;
+    padding-left: 0px;
+    width: 100%;
+}
+#public-section .employment-content ul li{
+    margin: 25px 0px 5px 0px;
+    border-bottom: 1px solid #d9d9d9;
+    display: flex;
+    justify-content: space-between;
+}
+
+#public-section .employment-content ul li span{
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 800;;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #00aeef;
+    padding-left: 0px;
+}
+#public-section .employment-content ul li p{
+    font-family: 'Avenir LT Std';
+    font-size: 17px;
+    font-weight: normal;
+    line-height: 1.63;
+    letter-spacing: normal;
+    color: #5e6a6e;
+    padding-left: 0px;
+
+}
+/* public-section end */
+
+/* video-overview section start */
+#video-overview{
+    width: 1349px;
+    margin: 0 auto;
+}
+#video-overview .polices-content{
+    width: 100%;
+    height: 459px;
+    background-color: #00aeef;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 18%;
+}
+#video-overview .polices-content h2{
+    font-family: Montserrat;
+    font-size: 32px;
+    font-weight: normal;
+    line-height: 1.31;
+    letter-spacing: normal;
+    color: #ffffff;
+    margin-bottom: 0px;
+}
+#video-overview .polices-content p{
+    font-family: Montserrat;
+    font-size: 17px;
+    font-weight: lighter;
+    line-height: 1.5;
+    letter-spacing: normal;
+    color: #ffffff;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    opacity: 0.8;
+
+}
+#video-overview .polices-content a{
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: lighter;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    border-radius: 2px;
+    background-color: #f5a623;
+    padding: 15px 40px;
+    text-align: left;
+    text-decoration: none;
+
+}
+#video-overview .polices-image{
+    background-image: url(../images/workerman.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 459px;
+}
+#video-overview .col-sm-6{
+    padding: 0px;
+}
+#video-overview .standard-video{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 360px;
+}
+
+#video-overview .link-area a{
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: normal;
+    letter-spacing: 0.5px;
+    text-align: center;
+    color: #ffffff;
+    border-radius: 2px;
+    background-color: #00b2b3;
+    padding: 15px 40px;
+    text-align: left;
+    text-decoration: none;
+}
+#video-overview .heading{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 275px;
+}
+#video-overview .heading h5{
+    font-family: Montserrat;
+    font-size: 32px;
+    font-weight: normal;
+    line-height: 1.31;
+    letter-spacing: normal;
+    color: #ffffff;
+    text-align: right
+}
+#video-overview .data{
+    width: 480px;
+    display: flex;
+    justify-content: space-between;
+}
+#video-overview .data div{
+    margin-top: -15px;
+}
+/* video-overview section end */
+
+/* SCTE ByLaws section start */
+#byLaws{
+    width: 1349px;
+    margin: 0 auto;
+}
+#byLaws .byLaws{
+    width: 100%;
+    height: 459px;
+    background-color: #323b52;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 10%;
+}
+#byLaws .byLaws h2{
+    font-family: Montserrat;
+    font-size: 32px;
+    font-weight: normal;
+    line-height: 1.31;
+    letter-spacing: normal;
+    color: #ffffff;
+}
+#byLaws .byLaws p{
+    font-family: Montserrat;
+    padding-top: 30px;
+    font-size: 17px;
+    font-weight: lighter;
+    letter-spacing: normal;
+    color: #ffffff;
+    padding-bottom: 30px;
+    opacity:0.8;
+}
+#byLaws .byLaws a{
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: normal;
+    letter-spacing: 0.5px;
+    text-align: center;
+    color: #ffffff;
+    border-radius: 2px;
+    background-color: #00b2b3;
+    padding: 15px 40px;
+    text-align: left;
+    text-decoration: none;
+}
+#byLaws .polices-image{
+    background-image: url(../images/business-meeting.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 459px;
+}
+#byLaws .polices-image .involved{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 238px;
+}
+#byLaws .polices-image .involved h5{
+    font-family: Montserrat;
+    font-size: 32px;
+    font-weight: normal;
+    line-height: 1.31;
+    letter-spacing: normal;
+    color: #ffffff;
+}
+#byLaws .polices-image .commitness{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 200px;
+    padding-right: 60px;
+}
+#byLaws .polices-image .commitness a{
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: normal;
+    letter-spacing: 0.5px;
+    text-align: center;
+    color: #ffffff;
+    border-radius: 2px;
+    background-color: #00b2b3;
+    padding: 15px 40px;
+    text-align: left;
+    text-decoration: none;
+}
+#byLaws .col-sm-6{
+    padding: 0px;
+}
+
+/* SCTE ByLaws section end */
