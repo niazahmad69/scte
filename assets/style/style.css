@@ -1,6 +1,7 @@
 body{
     padding: 0;
     margin: 0;
+    font-family: 'Open Sans', sans-serif;;
 }
 
 /*Home page*/
@@ -159,27 +160,351 @@ body{
     border: none;
 }
 .sub-section2{
-    display: flex;
+
+    background-color: gray;
+    align-items: center;
+    justify-content: space-evenly;
     width: 50%;
     height: 50%;
 }
 .card3{
-    background-color: gray;
-    /*display: flex;*/
 
+width: 50%;
+    /*display: flex;*/
+/*justify-content: space-evenly;*/
     /*flex-direction: row;*/
+    /*padding: 56px;*/
     /*width: 50%;*/
     /*height: 50%;*/
 
 }
+.card3-row3{
+    padding: 3px 112px 54px 143px;
+    margin-top: -50px;
+    color: white;
+}
 .group-6{
      /*display: flex;*/
-    /*justify-content: flex-end;*/
-    padding: 5px 0px 3px 474px;
+    /*!*justify-content: flex-end;*!  padding: 5px 0px 3px 474px;*/
 }
-.digital{
+.expanddigital{
+    padding: 11px 43px;
+    background-image: blue;
+    background-color: #272323;
+    color: white;
+    border: none;
+}
+.journaldigital{
+    padding: 10px 48px;
 
 }
+
+.sub-section2{
+    display: flex;
+    width: 100%;
+}
+.digitalvideo{
+    padding: 63px 95px 42px 65px;
+    margin-top: -57px;
+    margin-left: 78px;
+    margin-bottom: -5px;
+    display: -webkit-inline-box;
+    color: white;
+
+}
+.group-6{
+    margin: 0px 0px -14px 195px;
+}
+
+.card4{
+    display: flow-root;
+    flex-direction: row;
+    align-items: center;
+    background-color: #CDDC39;;
+    width: 50%;
+    height: 100%;
+}
+.energy{
+    padding: 22px 22px 21px 76px;
+    color: white;
+}
+.fill-1{
+    margin-top: -131px;
+}
+
+.roots{
+    padding: 103px 50px 0px 74px;
+}
+.expandenergy{
+    padding: 11px 40px;
+    margin-left: 73px;
+    background-color: #3b3e21;
+    border: none;
+    color: white;
+}
+.journalenergy{
+    padding: 11px 40px;
+    margin-left: 4px;
+    background-color: #fbf3f3;
+    color: #9ed09e;
+}
+.sub-section3{
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: space-evenly; */
+    width: 100%;
+    height: 50%;
+}
+.card5{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: orange;
+    width: 50%;
+    }
+.group-23{
+    padding: 0px 0px 0px 327px;
+    margin-top: -107px;
+}
+.equipment{
+    margin-top: 55px;
+    margin-left: 68px;
+    color: white;
+}
+}
+.industry{
+    margin-left: -429px;
+    color: white;
+    margin-top: 200px;
+
+}
+.expandindustry{
+    padding: 11px 48px;
+    margin-top: 10px;
+    margin-left: -3px;
+    background-color: #3b3e21;
+    border: none;
+    color: white;
+}
+.card6{
+
+    background-color: #171b33;
+    background-size: cover;
+    width: 50%;
+}
+.card5-row5{
+    margin-top: 143px;
+    margin-left: -583px;
+    margin-right: 7px;
+    color: white;
+}
+
+.networks{
+    margin-left: 68px;
+    margin-top: 59px;
+    color: white;
+
+
+}
+.card6-row6{
+    margin-left: 65px;
+    color: white;
+
+}
+.policy{
+    margin-left: 387px;
+    margin-top: -108px;
+}
+.expandnetwork{
+    padding: 11px 40px;
+    margin-left: 73px;
+    background-color: #3b3e21;
+    border: none;
+    color: white;
+}
+.journalnetwork{
+    padding: 11px 40px;
+    margin-left: 5px;
+    background-color: white;
+    border: none;
+    color: gray;
+}
+.curious{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #00aeef;
+    height: 15%;
+    width: 100%;
+}
+.about{
+    color: white;
+}
+.tell{
+    background-color: orange;
+    height: 43px;
+    width: 191px;
+    color: white;
+    border: none;
+    margin-left: -202px;
+}
+
+.projectsBg{
+    background-image: url(../images/v44.jpg);
+    background-size: cover;
+    height: 83%;
+    width: 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    background-position: center;
+    color: white;
+}
+.projectsBg h1{
+    margin-left: 149px;
+    margin-top: -54px;
+}
+.projectsBg p{
+    margin-left: 149px;
+    font-size: 20px;
+    line-height: 1.7;
+}
+.download{
+    word-spacing: 2px;
+    margin-left: 798px;
+    padding: 17px 47px;
+    background-color: #76bef7;
+    border: none;
+    color: white;
+
+}
+.ansi{
+    background-color: #3f3f42;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+.public{
+    margin-left: 71px;
+    margin-top: 27px;
+    color: #4d4d67;
+}
+.scte7{
+    color: #58b5ff;
+    margin-left: 69px
+
+
+}
+.enim{
+    margin-left: 288px;
+    margin-top: -39px;
+    font-size: 19px;
+    color: #5f5b5b;
+}
+.line1{
+    color: black;
+    width: 85%;
+    margin-left: 68px;
+
+
+}
+.serving{
+    display: flex;
+    flex-direction: column;
+    background-color: #041b2d;
+    height: 43%;
+    width: 100%;
+    color: white;
+}
+.lorem{
+    color: gray;
+}
+quick{
+    display: flex;
+    flex-direction: column;
+}
+.asda{
+    color: gray;
+}
+.mainserve{
+    margin-left: 110px;
+    margin-top: 42px;
+    color: white;
+}
+.section5{
+    display: flex;
+    flex-direction: column;
+}
+.mainquick{
+    margin-left: 583px;
+    margin-top: -168px;
+    color: white;
+}
+.quick{
+    color: gray;
+}
+.mainget{
+    margin-left: 783px;
+    margin-top: -168px;
+    color: white;
+}
+.get{
+    color: gray;
+}
+.take{
+    PADDING: 9px;
+    background-color: #f59200;
+    border: none;
+    color: white;
+}
+.us{
+    padding: 9px;
+    background-color: gray;
+    color: white;
+    border: none;
+}
+.say{
+    display: flex;
+    background-color: #00aeef;
+    width: 100%;
+    height: 20%;
+}
+.question{
+    font-family: 'Open Sans', sans-serif;;
+
+    color: white;
+    margin-top: 42px;
+    margin-left: 128px;
+}
+.let{
+    margin-top: 45px;
+    margin-left: 87px;
+    padding: 7px 28px;
+    background: #041b2d;
+    border: none;
+
+}
+.you{
+    display: flex;
+    background-color: #041b2d;
+    width: 100%;
+    height: 40%;
+}
+
+
+
+
+
+
+
+
+
+
 
 /*Home page section two end*/
 
