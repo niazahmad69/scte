@@ -189,7 +189,7 @@ width: 50%;
 }
 .expanddigital{
     padding: 11px 43px;
-    background-image: blue;
+    background-color:  blue;
     background-color: #272323;
     color: white;
     border: none;
@@ -208,7 +208,6 @@ width: 50%;
     margin-top: -57px;
     margin-left: 78px;
     margin-bottom: -5px;
-    display: -webkit-inline-box;
     color: white;
 
 }
@@ -271,7 +270,7 @@ width: 50%;
     margin-left: 68px;
     color: white;
 }
-}
+
 .industry{
     margin-left: -429px;
     color: white;
